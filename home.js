@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
 // Get the elements by their IDs
 const about = document.getElementById('about');
@@ -27,3 +28,4 @@ about.addEventListener('click', function() {
     section.scrollIntoView({ behavior: 'smooth' });
   });
 });
+
